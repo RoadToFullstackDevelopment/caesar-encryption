@@ -24,5 +24,5 @@ console.log(encodeText("Penso, logo existo.", 5))
 ```
 const decodeText = require("caesar-cipher-lib");
 console.log(decodeText("Ujsxt1 qtlt jcnxyt3", 5))
-// returns "Penso, logo existo"
+// returns "Penso, logo existo."
 ```
