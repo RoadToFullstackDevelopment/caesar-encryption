@@ -1,5 +1,5 @@
 {
-  "name": "cesar",
+  "name": "caesar-cipher-lib",
   "version": "1.0.0",
   "description": "Biblioteca de testes da Cifra de Cesar",
   "main": "cipher.js",
