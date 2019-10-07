@@ -42,6 +42,8 @@ Ao utilizar alguns conhecimentos já adquiridos de experiência do usuário (UX)
 ├── package-json
 ```
 
+![alt text](/img/Macbook-showcase.jpg "main showcase")
+
 ## Biblioteca de testes da Cifra de César v1.0.0
 
 Esta biblioteca destina-se a testes com a Cifra de César.
