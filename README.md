@@ -26,9 +26,20 @@ Ao utilizar alguns conhecimentos já adquiridos de experiência do usuário (UX)
 
 ```
 ./
+|-- .nyc_output
+|-- img
+|-- src
+|   |-- cipher.js
+|   |-- index.html
+|   |-- index.js
+|   |-- style.css
+|-- test
+|   |-- index.spec.js
+|-- .DS_Store
 |-- .gitignore
 |-- README.md
-
+|-- package-lock.json
+|-- package.json
 ```
 
 
