@@ -24,24 +24,23 @@ A Cifra de César é o primeiro projeto proposto às alunas da Laboratória, ref
 
 Ao utilizar alguns conhecimentos já adquiridos de experiência do usuário (UX), pensei nesse projeto como um aplicativo com uma interface simples e acessível, para que o usuário pudesse escolher o deslocamento desejado e não tivesse dificuldades em cifrar a mensagem desejada. Além dessas características, trata-se de uma página responsiva, pensada também para as pessoas que desejarem enviar mensagens criptografadas de um smartphone ou tablet. Essa página foi elaborada em HTML, CSS e JavaScript puro (Vanilla JS), utilizando DOM para criar um sistema de codificação e decodificação de mensagens, considerando letras maiúsculas, minúsculas e alguns caracteres. Abaixo, apresento a estrutura do sistema de arquivos do projeto:
 
-```
+```text
 ./
-|-- .nyc_output
-|-- img
-|-- src
-|   |-- cipher.js
-|   |-- index.html
-|   |-- index.js
-|   |-- style.css
-|-- test
-|   |-- index.spec.js
-|-- .DS_Store
-|-- .gitignore
-|-- README.md
-|-- package-lock.json
-|-- package.json
+├── .nyc_output
+├── img
+├── src
+│   ├── cipher.js
+│   ├── index.html
+│   ├── index.js
+│   └── style.css
+├── test
+│   ├── index.spec.js
+├── .DS_Store
+├── .gitignore
+├── README.md
+├── package-lock.json
+├── package-json
 ```
-
 
 ## Biblioteca de testes da Cifra de César v1.0.0
 
