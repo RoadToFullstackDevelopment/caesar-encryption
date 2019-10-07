@@ -1,5 +1,7 @@
 # Cifra de César
 
+![alt text](/img/main-showcase.jpg "main showcase")
+
 
 ## Biblioteca de testes da Cifra de César v1.0.0
 
