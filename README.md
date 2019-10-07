@@ -42,7 +42,22 @@ Ao utilizar alguns conhecimentos já adquiridos de experiência do usuário (UX)
 ├── package-json
 ```
 
+Além de todas as etapas obrigatórias do projeto realizadas, incluí um botão para limpar o formulário.
+
 ![alt text](/img/Macbook-showcase.jpg "main showcase")
+
+## O que foi feito
+
+- [x] Elaboração de um arquivo `README.md` com imagens e explicações sobre o projeto
+- [x] Uso de VanillaJS
+- [x] Permitir escrever um texto, com letras maiúsculas, letras minúsculas, números e caracteres, para ser cifrado
+- [x] Mostrar o resultado da cifra corretamente
+- [x] Permitir escrever um texto, com letras maiúsculas, letras minúsculas, números e caracteres, para ser decifrado
+- [X] Mostrar o resultado decifrado corretamente
+- [X] Permitir escolher o `offset` (deslocamento) a ser usado na cifragem/decifragem de textos
+- [x] Implementar a função `encode(string, offset)`
+- [x] Implementar a função `decode(string, offset)`
+
 
 ## Biblioteca de testes da Cifra de César v1.0.0
 
