@@ -9,9 +9,25 @@
     <title>Cifra de César</title>
 </head>
 <body>
-    <h1>Teste</h1>
+    
+    <section class="container">
+        <div class="content">
+            
+            <form id="messageForm">
+                <h1>Digite uma mensagem</h1>
+                <textarea id="encodeMessage" name="input-message" class="form-input" placeholder="Escreva algo"></textarea>
+                <label for="route" class="title">Digite uma rota</label>
+                <input type="number" id="route" class="form-input" min="0" class="numero">
+                <input type="submit" id="encodeText" value="Cifrar mensagem">
+                <input type="submit" id="decodeText" value="Decifrar mensagem">
+                <input type="submit" id="cleanForm" value="Limpar">
+                <textarea id="decodeMessage" name="output-message" class="form-input" placeholder="Sua mensagem cifrada ou decifrada aparecerá aqui"></textarea>
+            </form>
+        </div>
+    </section>
 
     <script src="src/index.js"></script>
     <script src="src/cipher.js"></script>
+    <script src="src/TweenMax.min.js"></script>
 </body>
 </html>
