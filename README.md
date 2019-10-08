@@ -30,13 +30,13 @@ Ao utilizar alguns conhecimentos já adquiridos de experiência do usuário (UX)
 ├── img
 ├── src
 │   ├── cipher.js
-│   ├── index.html
 │   ├── index.js
 │   └── style.css
 ├── test
 │   ├── index.spec.js
 ├── .DS_Store
 ├── .gitignore
+├── index.html
 ├── README.md
 ├── package-lock.json
 ├── package-json
