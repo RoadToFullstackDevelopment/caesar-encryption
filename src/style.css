@@ -77,3 +77,9 @@ textarea {
     text-transform: uppercase;
     font-size: .85rem;
 }
+
+@media screen and (max-width: 48rem) {
+    textarea {
+        width: 80%;
+    }
+}
