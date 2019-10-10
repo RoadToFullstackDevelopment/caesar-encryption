@@ -20,6 +20,8 @@
   },
   "homepage": "https://github.com/anapaulalaraujo/caesar-cipher#readme",
   "dependencies": {
+    "babel-preset-env": "^1.7.0",
+    "babel-register": "^6.26.0",
     "chai": "^4.2.0",
     "mocha": "^6.2.1",
     "nyc": "^14.1.1"
