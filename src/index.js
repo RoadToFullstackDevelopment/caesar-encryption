@@ -64,4 +64,3 @@ const decode = (string, offset) => {
     }
     return result
 }
-
