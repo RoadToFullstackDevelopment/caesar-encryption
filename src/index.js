@@ -96,7 +96,7 @@ enterButton.addEventListener('click', () => {
     });
 
     TweenMax.from('.content', 2, {
-        delay: 3.2,
+        delay: 3.8,
         opacity: 0,
         ease: Power2.easeInOut
     });
@@ -104,7 +104,7 @@ enterButton.addEventListener('click', () => {
     TweenMax.to('.content', 2, {
         opacity: 1,
         y: -300,
-        delay: 3.2,
+        delay: 3.8,
         ease: Power2.easeInOut
     });
 
