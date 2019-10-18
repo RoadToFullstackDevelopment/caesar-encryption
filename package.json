@@ -1,0 +1,28 @@
+{
+  "name": "caesar-cipher-lib",
+  "version": "1.0.0",
+  "description": "Biblioteca de testes da Cifra de Cesar",
+  "main": "cipher.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "nyc mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anapaulalaraujo/caesar-encryption.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anapaulalaraujo/caesar-encryption/issues"
+  },
+  "homepage": "https://github.com/anapaulalaraujo/caesar-encryption#readme",
+  "dependencies": {
+    "browserify": "^16.5.0",
+    "chai": "^4.2.0",
+    "mocha": "^6.2.1",
+    "nyc": "^14.1.1"
+  }
+}

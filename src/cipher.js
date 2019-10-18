@@ -44,5 +44,4 @@ const decode = (string, offset) => {
     return result
 }
 
-module.exports.encode = encode;
-module.exports.decode = decode;
+export { encode, decode }

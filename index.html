@@ -12,7 +12,7 @@
     
     <section class="container">
 
-        <div class="overlayOne">
+        <div class="overlay-one">
             <div class="screen">
                 <svg version="1.1" id="Camada_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 960 560" style="enable-background:new 0 0 960 560;" xml:space="preserve">
                 <style type="text/css">
@@ -50,28 +50,29 @@
                 </svg>
             </div>
             <div class="intro">
-                <button class="myButton">ENTRAR</button>
+                <button class="my-button">ENTRAR</button>
             </div>
         </div>
 
-        <div class="overlayTwo"></div>
+        <div class="overlay-two"></div>
 
         <div class="content">
-            <form id="messageForm">
-                <h1 class="formTitle">Digite uma mensagem</h1>
-                <textarea id="encodeMessage" name="input-message" class="form-input" placeholder="Escreva algo"></textarea>
+            <form id="message-form">
+                <h1 class="form-title">Digite uma mensagem</h1>
+                <textarea id="encode-message" name="input-message" class="form-input" placeholder="Escreva algo"></textarea>
                 <label for="route" class="title">Digite uma rota</label>
                 <input type="number" id="route" class="form-input" min="0" class="numero">
-                <input type="submit" id="encodeText" value="Cifrar mensagem">
-                <input type="submit" id="decodeText" value="Decifrar mensagem">
-                <input type="submit" id="cleanForm" value="Limpar">
-                <textarea id="decodeMessage" name="output-message" class="form-input" placeholder="Sua mensagem cifrada ou decifrada aparecerá aqui"></textarea>
+                <input type="submit" id="encode-text" value="Cifrar mensagem">
+                <input type="submit" id="decode-text" value="Decifrar mensagem">
+                <input type="submit" id="clean-form" value="Limpar">
+                <textarea id="decode-message" name="output-message" class="form-input" placeholder="Sua mensagem cifrada ou decifrada aparecerá aqui"></textarea>
             </form>
         </div>
     </section>
 
     
     <script src="src/TweenMax.min.js"></script>
-    <script src="src/index.js"></script>
+    <script src="src/animation.js"></script>
+    <script type="module" src="src/index.js"></script>
 </body>
 </html>

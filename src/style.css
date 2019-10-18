@@ -40,7 +40,7 @@ form {
 textarea {
     height: 4.25rem;
     line-height: 150%;
-    resize:vertical;
+    resize:none;
 }
 
 [type="submit"] {
@@ -60,7 +60,7 @@ textarea {
     text-transform: uppercase;
 }
 
-#cleanForm {
+#clean-form {
     margin-bottom: 1rem;
 }
 
@@ -73,7 +73,7 @@ textarea {
     text-transform: uppercase;
 }
 
-.formTitle {
+.form-title {
     font-size: 2rem;
     text-transform: uppercase;
 }
@@ -85,7 +85,7 @@ textarea {
     transform: translate(-50%, -50%);
 }
 
-.overlayTwo {
+.overlay-two {
     z-index: 0;
     position: absolute;
     width: 100%;
@@ -93,7 +93,7 @@ textarea {
     background: var(--color-cadet-blue);
 }
 
-.overlayOne {
+.overlay-one {
     z-index: 1;
     position: absolute;
     width: 100%;
@@ -101,14 +101,14 @@ textarea {
     background: var(--color-black);
 }
 
-.overlayOne .screen {
+.overlay-one .screen {
     position: relative;
     top: 50%;
     left: 47%;
     transform: translate(-50%, -50%);
 }
 
-.myButton {
+.my-button {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -132,12 +132,12 @@ button {
     transition: 0.8s ease-out;
 }
 
-.myButton:hover {
+.my-button:hover {
     color: var(--color-black);
     cursor: pointer;
 }
 
-.myButton::before {
+.my-button::before {
     content: "";
     position: absolute;
     background: var(--color-white);
@@ -149,7 +149,7 @@ button {
     transition: top 0.8s ease-out;
 }
 
-.myButton:hover::before {
+.my-button:hover::before {
     top: 0;
 }
 
