@@ -29,6 +29,8 @@ Ao utilizar alguns conhecimentos já adquiridos de experiência do usuário (UX)
 ├── .nyc_output
 ├── img
 ├── src
+|   ├── TweenMax.min.js
+|   ├── animation.js
 │   ├── cipher.js
 │   ├── index.js
 │   └── style.css
