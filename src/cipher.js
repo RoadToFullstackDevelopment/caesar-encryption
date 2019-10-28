@@ -21,3 +21,5 @@ const decode = (string, offset) => {
 }
 
 export { encode, decode }
+// module.exports.encode = encode
+// module.exports.decode = decode
