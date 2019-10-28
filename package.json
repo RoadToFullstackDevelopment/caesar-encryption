@@ -1,0 +1,24 @@
+{
+  "name": "cesar",
+  "version": "1.0.0",
+  "description": "![alt text](/img/main-showcase.jpg \"main showcase\")",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anapaulalaraujo/caesar-encryption.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anapaulalaraujo/caesar-encryption/issues"
+  },
+  "homepage": "https://github.com/anapaulalaraujo/caesar-encryption#readme",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.2.2"
+  }
+}
