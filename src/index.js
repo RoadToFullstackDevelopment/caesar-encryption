@@ -1,4 +1,4 @@
-import { encode, decode } from "../src/cipher.js";
+import {encode, decode} from '../src/cipher.js';
 
 const encodeDecodeButton = document.querySelectorAll('.encode-decode');
 for (let i = 0; i < encodeDecodeButton.length; i++) {

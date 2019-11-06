@@ -4,7 +4,7 @@
   "description": "![alt text](/img/main-showcase.jpg \"main showcase\")",
   "main": "index.js",
   "scripts": {
-    "test": "mocha",
+    "test": "./node_modules/mocha/bin/mocha test/*.js --require babel-register --reporter spec || exit 0",
     "coverage": "nyc npm run test"
   },
   "repository": {
@@ -20,9 +20,12 @@
   "homepage": "https://github.com/anapaulalaraujo/caesar-encryption#readme",
   "dependencies": {
     "chai": "^4.2.0",
+    "esm": "^3.2.25",
     "mocha": "^6.2.2"
   },
   "devDependencies": {
+    "babel-preset-latest": "^6.24.1",
+    "babel-register": "^6.26.0",
     "nyc": "^14.1.1"
   }
 }

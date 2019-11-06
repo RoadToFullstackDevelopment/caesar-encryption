@@ -20,6 +20,4 @@ const decode = (string, offset) => {
     return result;
 }
 
-export { encode, decode }
-// module.exports.encode = encode
-// module.exports.decode = decode
+export { encode, decode };
