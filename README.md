@@ -57,5 +57,4 @@ Além de todas as etapas obrigatórias do projeto realizadas, incluí um botão 
 - [x] Permitir a inclusão de um texto, com letras maiúsculas, letras minúsculas, números e caracteres, para ser decifrado
 - [X] Mostrar o resultado decifrado corretamente
 - [X] Permitir a escolha do `offset` (deslocamento) a ser usado na cifragem/decifragem de textos
-- [x] Implementação da função `encode(string, offset)`
-- [x] Implementação da função `decode(string, offset)`
+- [x] Implementação da função única de codificação e decodificação `encode(string, offset)`
