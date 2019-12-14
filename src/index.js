@@ -1,24 +1,23 @@
 import { encode } from '../src/cipher.js';
 
-const encodeDecodeButton = document.querySelectorAll('.encode-decode');
-for (let i = 0; i < encodeDecodeButton.length; i++) {
-    if (encodeDecodeButton[i].value === "Cifrar mensagem") {
-        encodeDecodeButton[i].addEventListener('click', (event) => {
-            event.preventDefault()
-            let routeValue = parseInt(document.querySelector('#route').value);
-            let encodeText = document.querySelector('#encode-message').value;
-            return document.querySelector('#decode-message').value = encode(encodeText, routeValue);
+const cipherItems = ['encode-text', 'decode-text'].map(document.getElementById, document)
+  
+const idElements = ['encode-message', 'route', 'decode-message'].map(document.getElementById, document)
+  
+  for(let element of cipherItems) {
+    if (element.value === 'Cifrar mensagem'){
+        element.addEventListener('click', function(e){
+          e.preventDefault()
+          return idElements[2].value = encode(idElements[0].value, parseInt(idElements[1].value));
         })
-    }
-    else {
-        encodeDecodeButton[i].addEventListener('click', (event) => {
-            event.preventDefault();
-            let routeValue = parseInt(document.querySelector('#route').value) < 0;
-            let encodeText = document.querySelector('#encode-message').value;
-            return document.querySelector('#decode-message').value = encode(encodeText, routeValue);
+      }
+      else {
+        element.addEventListener('click', function(e) {
+          e.preventDefault()
+          return idElements[2].value = encode(idElements[0].value, parseInt(idElements[1].value) < 0);
         })
-    }
-}
+      }
+  }
 
 const cleanButton = document.querySelector('#clean-form');
 cleanButton.addEventListener('click', (event) => {
